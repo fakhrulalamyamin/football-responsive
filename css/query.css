@@ -1,0 +1,17 @@
+@media only screen and (max-width: 36rem) {
+     h1 {
+          font-size: 3.6rem;
+     }
+
+     .hero {
+          grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+     }
+
+     .news-grid {
+          grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+     }
+
+     footer img {
+          height: 7rem;
+     }
+}
